@@ -26,7 +26,7 @@ int main(){
     
     sort(v.rbegin(), v.rend());
 
-    answer = v[0] + tree_num + 2; // 첫번째 나무 심는 날 + 마지막 나무 심는 날을 2일로 더함
+    answer = v[0] + tree_num + 2; // 구입날 + 이장님 초대날
     cout << answer << endl;
 
     return 0;
